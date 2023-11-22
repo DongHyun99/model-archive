@@ -67,8 +67,8 @@ meta = {
 # dataset_source=6 panoptic_seg
 # dataset_source=7 bbox, reID(for tracking)
 
-register_coco_instances("COCO_train", meta, dataset_root + "COCO/coco/annotations/person_keypoints_train2014.json", dataset_root + "COCO/train2014")
-register_coco_instances("COCO_test", meta, dataset_root + "COCO/coco/annotations/person_keypoints_val2014.json", dataset_root + "COCO/val2014")
+register_coco_instances("COCO_train", meta, dataset_root + "COCO/annotations/person_keypoints_train2014.json", dataset_root + "COCO/train2014")
+register_coco_instances("COCO_test", meta, dataset_root + "COCO/annotations/person_keypoints_val2014.json", dataset_root + "COCO/val2014")
 #import ipdb
 #ipdb.set_trace()
 #register_coco_panoptic_separated("coco_2017_val_panoptic_ihp", panoptic_meta, dataset_root + "CCTV/annotations/instances_daejeon_cctv_train2022.json", dataset_root + "CCTV/images", dataset_source=2)
