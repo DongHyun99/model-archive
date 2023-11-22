@@ -1,4 +1,8 @@
+# Detection
 detection/Detectron2/output/
 detection/Detectron2/output/log.txt
 detection/Detectron2/output/log.txt.rank1
 detection/Detectron2/output/metrics.json
+
+venv/
+.venv
