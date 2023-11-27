@@ -1,0 +1,14 @@
+opencv-python
+pyyaml
+json_tricks
+yacs
+scikit-learn
+tensorwatch
+tensorboardX
+pandas
+ptflops
+timm==0.3.2
+numpy==1.19.3
+einops
+torch==1.7.0
+torchvision==0.8.0
